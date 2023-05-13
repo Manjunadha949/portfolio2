@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personle Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5a50b9efb6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header'">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!----<li><a href="#services">Services</a></li>--->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"  onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>I'm a programmer & Developer </p>
+                <h1>Hi, I'm <span>Manjunadha</span><br>Mallina From India</h1>
+            </div>
+        </div>
+      </div>
+      <!------------about------>
+      <div id="about">
+         <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="images/Manju.jpg">
+               </div> 
+               <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a dedicated and hardworking college student, I am eager to secure an internship that allows me to apply my motivated attitude and powerful 
+                    skills to further a company’s mission. With the ability to multitask and work collaboratively with others, I am confident in my ability to contribute
+                     positively to your organization. Research is an area of particular interest to me as it provides the opportunity to learn and explore new concepts.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!---<p class="tab-links"  onclick="opentab('experience')">Experience</p>---->
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages </span><br>Java, Python and C</li>
+                            <li><span>Scripting  Languages </span><br>HTML,CSS and Java Script</li>
+                            <li><span>Frame works</span><br>Flask and Django.</li>
+                            <li><span>Academic Courses</span><br>Data Structures and Algorithms(DSA), Operating Systems(OS), 
+                                Database Management System(DBMS),Computer Networks and Security (CNS),
+                                MongoDB,MSQL and  OOPS Concepts
+                                </li>
+                        </ul>
+                    </div>
+                   <!----- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019-2021</span><br>Team lead at startAPP LLc.</li>
+                            <li><span>2017-2019</span><br>UI/UX Design Executive at coin digital Ltd.</li>
+                            <li><span>2016-2017</span><br>Internship at ekart eCCommerce.</li>
+                        </ul>
+                    </div>---->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Aug 2021 to May 2025</span><br>B.Tech in CSE(Honours) from KL University Hyderabad.<br>CGPA: 8.72</li>
+                            <li><span>Jun 2019 to Apr 2021 </span><br>Intermediate from Sri Chaitanya, Hyderabad<br>Percentage: 83 </li>
+                            <li><span>Jun 2018 to Apr 2019</span><br>Class X from Triveni Talent School, Kothagudam<br>CGPA: 7.8</li>
+                        </ul>
+                    </div>
+               </div> 
+            </div>
+         </div>
+      </div>
+      <!---------Services------------->
+     <!------ <div id="services">
+        <div class="container">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+         <h2>Web Design</h2>
+         <p>Here you can find activities to practise your reading skills. Reading will help you to improve</p>
+            <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Here you can find activities to practise your reading skills. Reading will help you to improve</p>
+                   <a href="#">Learn more</a>
+                   </div>
+                   <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Here you can find activities to practise your reading skills. Reading will help you to improve</p>
+                       <a href="#">Learn more</a>
+                       </div>
+           
+        </div>
+    </div>
+      </div>------>
+      <!---------Portfolio--------------->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg" >
+                    <div class="layer">
+                        <h3>Marriage Hall Booking System using Flask</h3>
+                        <p>Marriage Hall Booking System using Flask is a web-based application that 
+                            allows users to book a marriage hall for a specified date and time.</p>
+                            <!------<a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>---->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" >
+                    <div class="layer">
+                        <h3>Credit Card Management System Using Flask </h3>
+                        <p>Credit Card Management System using Flask is a web-based application
+                             that allows users to manage their credit cards online.</p>
+                            <!-----<a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>------>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" >
+                    <div class="layer">
+                        <h3>E-commerce  Website  using  React JS   </h3>
+                        <p>An e-commerce website using React JS is a web-based application
+                             that allows users to browse and purchase products online.</p>
+                            <!--------<a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>------->
+                    </div>
+                </div>
+            </div>
+            <!----------<a href="#" class="btn">See more</a>--------->
+        </div>
+      </div>
+<!----------Contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> manjunadha949@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i> 9347622694</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/manjunadha-mallina-36b0b8200/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Manjunadha949"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/ManjuNa70189941"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://t.me/Manjunadha949"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/Manjunadha CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6"  placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i>Made  by  Manjunadha</p>
+    </div>
+</div>
+
+
+      <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                   tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWo-5NMVlpYjgJ0xs3RMw_sFH9wOyEmIxV7c0MWarp0jY2GprP9r1-RpkByrP41v8ipQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => { msg.innerHTML="Message sent successfully"
+                        setTimeout(function(){
+                                  msg.innerHTML="" },5000)  
+                                  form.reset()   
+                                 })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
